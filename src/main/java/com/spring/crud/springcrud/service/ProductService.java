@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+
 @Service
 public class ProductService {
     @Autowired
@@ -38,7 +39,7 @@ public class ProductService {
     }
 
     public Product updateProduct(Product product) {
-        Product oldProduct = productRepository.findById(product.getId()).orElse(null);
+        Product oldProduct = productRepository.findById(Math.toIntExact(product.getId())).orElse(null);
         assert oldProduct != null;
         oldProduct.setName(product.getName());
         oldProduct.setPrice(product.getPrice());

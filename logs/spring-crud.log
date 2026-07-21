@@ -1,0 +1,209 @@
+2026-07-22 00:24:24.354 [main] INFO  c.s.c.s.SpringCrudApplication - Starting SpringCrudApplication using Java 26 with PID 7817 (/Users/ramzan/Documents/spring_crud_api/target/classes started by ramzan in /Users/ramzan/Documents/spring_crud_api)
+2026-07-22 00:24:24.360 [main] INFO  c.s.c.s.SpringCrudApplication - No active profile set, falling back to 1 default profile: "default"
+2026-07-22 00:24:24.572 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-22 00:24:24.594 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 1 JPA repository interface.
+2026-07-22 00:24:24.768 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-07-22 00:24:24.772 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-07-22 00:24:24.773 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-07-22 00:24:24.773 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2026-07-22 00:24:24.792 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-07-22 00:24:24.792 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 415 ms
+2026-07-22 00:24:24.856 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-07-22 00:24:24.878 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-07-22 00:24:24.891 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-07-22 00:24:24.994 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-22 00:24:25.006 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-07-22 00:24:25.188 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5b6cc344
+2026-07-22 00:24:25.188 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-07-22 00:24:25.208 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-07-22 00:24:25.208 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-07-22 00:24:25.483 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-22 00:24:25.501 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-22 00:24:25.617 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-22 00:24:25.742 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-07-22 00:24:25.749 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-07-22 00:24:25.752 [main] INFO  c.s.c.s.SpringCrudApplication - Started SpringCrudApplication in 1.586 seconds (process running for 3.768)
+2026-07-22 00:25:03.254 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-22 00:25:03.254 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-07-22 00:25:03.256 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-07-22 00:25:03.290 [http-nio-8080-exec-1] INFO  c.s.c.s.controller.ProductController - GET /products - fetching all products
+2026-07-22 00:25:03.339 [http-nio-8080-exec-1] INFO  c.s.c.s.controller.ProductController - Returning 3 products
+2026-07-22 00:31:23.904 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-22 00:31:23.906 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-07-22 00:31:23.911 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-07-21 18:46:42.058 [main] INFO  c.s.c.s.SpringCrudApplication - Starting SpringCrudApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 1 (/app/app.jar started by root in /app)
+2026-07-21 18:46:42.060 [main] INFO  c.s.c.s.SpringCrudApplication - No active profile set, falling back to 1 default profile: "default"
+2026-07-21 18:46:42.337 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-21 18:46:42.356 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interface.
+2026-07-21 18:46:42.553 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-07-21 18:46:42.558 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-07-21 18:46:42.561 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-07-21 18:46:42.561 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2026-07-21 18:46:42.577 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-07-21 18:46:42.578 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 498 ms
+2026-07-21 18:46:42.653 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-07-21 18:46:42.672 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-07-21 18:46:42.685 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-07-21 18:46:42.796 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-21 18:46:42.807 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-07-21 18:46:42.924 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@652b3733
+2026-07-21 18:46:42.926 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-07-21 18:46:42.943 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-07-21 18:46:42.944 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-07-21 18:46:43.202 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-21 18:46:43.226 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-21 18:46:43.386 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-21 18:46:43.568 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-07-21 18:46:43.575 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-07-21 18:46:43.580 [main] INFO  c.s.c.s.SpringCrudApplication - Started SpringCrudApplication in 1.755 seconds (process running for 1.965)
+2026-07-21 18:47:08.673 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-21 18:47:08.673 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-07-21 18:47:08.674 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-07-21 18:47:08.691 [http-nio-8080-exec-1] INFO  c.s.c.s.controller.ProductController - GET /products - fetching all products
+2026-07-21 18:47:08.743 [http-nio-8080-exec-1] INFO  c.s.c.s.controller.ProductController - Returning 0 products
+2026-07-21 18:47:09.706 [http-nio-8080-exec-2] INFO  c.s.c.s.controller.ProductController - GET /products - fetching all products
+2026-07-21 18:47:09.712 [http-nio-8080-exec-2] INFO  c.s.c.s.controller.ProductController - Returning 0 products
+2026-07-21 18:47:51.004 [http-nio-8080-exec-3] INFO  c.s.c.s.controller.ProductController - POST /product/add - adding product: Iphone
+2026-07-21 18:47:51.025 [http-nio-8080-exec-3] INFO  c.s.c.s.controller.ProductController - Product saved successfully with id: 1
+2026-07-21 18:47:52.474 [http-nio-8080-exec-4] INFO  c.s.c.s.controller.ProductController - POST /product/add - adding product: Iphone
+2026-07-21 18:47:52.482 [http-nio-8080-exec-4] INFO  c.s.c.s.controller.ProductController - Product saved successfully with id: 2
+2026-07-21 18:47:53.016 [http-nio-8080-exec-5] INFO  c.s.c.s.controller.ProductController - POST /product/add - adding product: Iphone
+2026-07-21 18:47:53.023 [http-nio-8080-exec-5] INFO  c.s.c.s.controller.ProductController - Product saved successfully with id: 3
+2026-07-21 18:47:53.247 [http-nio-8080-exec-6] INFO  c.s.c.s.controller.ProductController - POST /product/add - adding product: Iphone
+2026-07-21 18:47:53.252 [http-nio-8080-exec-6] INFO  c.s.c.s.controller.ProductController - Product saved successfully with id: 4
+2026-07-21 18:47:53.445 [http-nio-8080-exec-7] INFO  c.s.c.s.controller.ProductController - POST /product/add - adding product: Iphone
+2026-07-21 18:47:53.451 [http-nio-8080-exec-7] INFO  c.s.c.s.controller.ProductController - Product saved successfully with id: 5
+2026-07-21 18:47:53.630 [http-nio-8080-exec-8] INFO  c.s.c.s.controller.ProductController - POST /product/add - adding product: Iphone
+2026-07-21 18:47:53.638 [http-nio-8080-exec-8] INFO  c.s.c.s.controller.ProductController - Product saved successfully with id: 6
+2026-07-21 18:47:53.827 [http-nio-8080-exec-9] INFO  c.s.c.s.controller.ProductController - POST /product/add - adding product: Iphone
+2026-07-21 18:47:53.833 [http-nio-8080-exec-9] INFO  c.s.c.s.controller.ProductController - Product saved successfully with id: 7
+2026-07-21 18:47:54.035 [http-nio-8080-exec-10] INFO  c.s.c.s.controller.ProductController - POST /product/add - adding product: Iphone
+2026-07-21 18:47:54.040 [http-nio-8080-exec-10] INFO  c.s.c.s.controller.ProductController - Product saved successfully with id: 8
+2026-07-21 18:47:57.183 [http-nio-8080-exec-1] INFO  c.s.c.s.controller.ProductController - GET /products - fetching all products
+2026-07-21 18:47:57.193 [http-nio-8080-exec-1] INFO  c.s.c.s.controller.ProductController - Returning 8 products
+2026-07-21 18:48:05.443 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-21 18:48:05.445 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-07-21 18:48:05.450 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-07-21 18:48:21.838 [main] INFO  c.s.c.s.SpringCrudApplication - Starting SpringCrudApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 1 (/app/app.jar started by root in /app)
+2026-07-21 18:48:21.839 [main] INFO  c.s.c.s.SpringCrudApplication - No active profile set, falling back to 1 default profile: "default"
+2026-07-21 18:48:22.096 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-21 18:48:22.114 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interface.
+2026-07-21 18:48:22.317 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-07-21 18:48:22.321 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-07-21 18:48:22.323 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-07-21 18:48:22.323 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2026-07-21 18:48:22.336 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-07-21 18:48:22.337 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 480 ms
+2026-07-21 18:48:22.400 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-07-21 18:48:22.416 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-07-21 18:48:22.426 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-07-21 18:48:22.524 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-21 18:48:22.535 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-07-21 18:48:22.650 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@652b3733
+2026-07-21 18:48:22.651 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-07-21 18:48:22.669 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-07-21 18:48:22.669 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-07-21 18:48:22.907 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-21 18:48:22.925 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-21 18:48:23.069 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-21 18:48:23.204 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-07-21 18:48:23.213 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-07-21 18:48:23.219 [main] INFO  c.s.c.s.SpringCrudApplication - Started SpringCrudApplication in 1.605 seconds (process running for 1.791)
+2026-07-21 18:48:23.237 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-21 18:48:23.238 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-07-21 18:48:23.238 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-07-21 18:48:23.252 [http-nio-8080-exec-1] INFO  c.s.c.s.controller.ProductController - GET /products - fetching all products
+2026-07-21 18:48:23.298 [http-nio-8080-exec-1] INFO  c.s.c.s.controller.ProductController - Returning 8 products
+2026-07-21 18:48:24.443 [http-nio-8080-exec-2] INFO  c.s.c.s.controller.ProductController - GET /products - fetching all products
+2026-07-21 18:48:24.448 [http-nio-8080-exec-2] INFO  c.s.c.s.controller.ProductController - Returning 8 products
+2026-07-21 18:48:24.959 [http-nio-8080-exec-4] INFO  c.s.c.s.controller.ProductController - GET /products - fetching all products
+2026-07-21 18:48:24.965 [http-nio-8080-exec-4] INFO  c.s.c.s.controller.ProductController - Returning 8 products
+2026-07-21 18:48:25.164 [http-nio-8080-exec-3] INFO  c.s.c.s.controller.ProductController - GET /products - fetching all products
+2026-07-21 18:48:25.170 [http-nio-8080-exec-3] INFO  c.s.c.s.controller.ProductController - Returning 8 products
+2026-07-21 18:48:25.358 [http-nio-8080-exec-5] INFO  c.s.c.s.controller.ProductController - GET /products - fetching all products
+2026-07-21 18:48:25.363 [http-nio-8080-exec-5] INFO  c.s.c.s.controller.ProductController - Returning 8 products
+2026-07-21 18:48:25.560 [http-nio-8080-exec-6] INFO  c.s.c.s.controller.ProductController - GET /products - fetching all products
+2026-07-21 18:48:25.566 [http-nio-8080-exec-6] INFO  c.s.c.s.controller.ProductController - Returning 8 products
+2026-07-21 18:48:29.260 [http-nio-8080-exec-7] INFO  c.s.c.s.controller.ProductController - POST /product/add - adding product: Iphone
+2026-07-21 18:48:29.288 [http-nio-8080-exec-7] INFO  c.s.c.s.controller.ProductController - Product saved successfully with id: 9
+2026-07-21 18:49:02.824 [http-nio-8080-exec-8] INFO  c.s.c.s.controller.ProductController - GET /products - fetching all products
+2026-07-21 18:49:02.831 [http-nio-8080-exec-8] INFO  c.s.c.s.controller.ProductController - Returning 9 products
+2026-07-21 18:59:28.064 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-21 18:59:28.068 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-07-21 18:59:28.073 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-07-21 18:59:37.885 [main] INFO  c.s.c.s.SpringCrudApplication - Starting SpringCrudApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 1 (/app/app.jar started by root in /app)
+2026-07-21 18:59:37.887 [main] INFO  c.s.c.s.SpringCrudApplication - No active profile set, falling back to 1 default profile: "default"
+2026-07-21 18:59:38.147 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-21 18:59:38.165 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interface.
+2026-07-21 18:59:38.344 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-07-21 18:59:38.348 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-07-21 18:59:38.349 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-07-21 18:59:38.349 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2026-07-21 18:59:38.361 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-07-21 18:59:38.362 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 457 ms
+2026-07-21 18:59:38.426 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-07-21 18:59:38.455 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-07-21 18:59:38.488 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-07-21 18:59:38.603 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-21 18:59:38.612 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-07-21 18:59:38.725 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@652b3733
+2026-07-21 18:59:38.726 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-07-21 18:59:38.742 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-07-21 18:59:38.743 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-07-21 18:59:38.976 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-21 18:59:38.993 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-21 18:59:39.170 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-21 18:59:39.335 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-07-21 18:59:39.342 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-07-21 18:59:39.347 [main] INFO  c.s.c.s.SpringCrudApplication - Started SpringCrudApplication in 1.691 seconds (process running for 1.881)
+2026-07-21 18:59:39.450 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-21 18:59:39.450 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-07-21 18:59:39.451 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-07-21 18:59:39.466 [http-nio-8080-exec-1] INFO  c.s.c.s.controller.ProductController - GET /products - fetching all products
+2026-07-21 18:59:39.512 [http-nio-8080-exec-1] INFO  c.s.c.s.controller.ProductController - Returning 9 products
+2026-07-21 18:59:40.519 [http-nio-8080-exec-2] INFO  c.s.c.s.controller.ProductController - GET /products - fetching all products
+2026-07-21 18:59:40.527 [http-nio-8080-exec-2] INFO  c.s.c.s.controller.ProductController - Returning 9 products
+2026-07-21 18:59:41.088 [http-nio-8080-exec-3] INFO  c.s.c.s.controller.ProductController - GET /products - fetching all products
+2026-07-21 18:59:41.095 [http-nio-8080-exec-3] INFO  c.s.c.s.controller.ProductController - Returning 9 products
+2026-07-21 18:59:52.525 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-21 18:59:52.526 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-07-21 18:59:52.530 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-07-21 18:59:53.758 [main] INFO  c.s.c.s.SpringCrudApplication - Starting SpringCrudApplication v0.0.1-SNAPSHOT using Java 17.0.19 with PID 1 (/app/app.jar started by root in /app)
+2026-07-21 18:59:53.759 [main] INFO  c.s.c.s.SpringCrudApplication - No active profile set, falling back to 1 default profile: "default"
+2026-07-21 18:59:54.008 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-21 18:59:54.026 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interface.
+2026-07-21 18:59:54.210 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-07-21 18:59:54.215 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-07-21 18:59:54.216 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-07-21 18:59:54.217 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2026-07-21 18:59:54.230 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-07-21 18:59:54.231 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 455 ms
+2026-07-21 18:59:54.298 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-07-21 18:59:54.315 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-07-21 18:59:54.326 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-07-21 18:59:54.424 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-21 18:59:54.435 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-07-21 18:59:54.551 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6cc8c13c
+2026-07-21 18:59:54.552 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-07-21 18:59:54.567 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-07-21 18:59:54.567 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-07-21 18:59:54.801 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-21 18:59:54.816 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-21 18:59:54.961 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-21 18:59:55.102 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-07-21 18:59:55.109 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-07-21 18:59:55.114 [main] INFO  c.s.c.s.SpringCrudApplication - Started SpringCrudApplication in 1.573 seconds (process running for 1.754)
+2026-07-21 19:00:06.878 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-21 19:00:06.879 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-07-21 19:00:06.880 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-07-21 19:00:06.900 [http-nio-8080-exec-1] INFO  c.s.c.s.controller.ProductController - GET /products - fetching all products
+2026-07-21 19:00:06.983 [http-nio-8080-exec-1] INFO  c.s.c.s.controller.ProductController - Returning 9 products
+2026-07-21 19:00:28.491 [http-nio-8080-exec-2] INFO  c.s.c.s.controller.ProductController - GET /products - fetching all products
+2026-07-21 19:00:28.499 [http-nio-8080-exec-2] INFO  c.s.c.s.controller.ProductController - Returning 9 products
+2026-07-21 19:00:29.357 [http-nio-8080-exec-3] INFO  c.s.c.s.controller.ProductController - GET /products - fetching all products
+2026-07-21 19:00:29.364 [http-nio-8080-exec-3] INFO  c.s.c.s.controller.ProductController - Returning 9 products
+2026-07-21 19:00:33.684 [http-nio-8080-exec-4] INFO  c.s.c.s.controller.ProductController - POST /product/add - adding product: Iphone
+2026-07-21 19:00:33.705 [http-nio-8080-exec-4] INFO  c.s.c.s.controller.ProductController - Product saved successfully with id: 10
+2026-07-21 19:09:26.798 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-21 19:09:26.801 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-07-21 19:09:26.811 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
